@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "server": "ts-node src/server.ts",
+    "client": "ts-node src/client.ts",
+    "protogen": "./proto-gen.sh"
+  },
+  "devDependencies": {
+    "@grpc/grpc-js": "^1.9.9",
+    "@grpc/proto-loader": "^0.7.10",
+    "ts-node": "^10.9.1"
+  }
+}
